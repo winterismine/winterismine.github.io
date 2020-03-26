@@ -2,4 +2,47 @@ html,
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+
+body {
+    margin-top: 70px;
+}
+
+.background {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(/img/backgr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 855px;
+    background-color: #444;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+}
+
+.box {
+    width: 305px;
+    min-height: 800px;
+    background-color: #eeddcc;
+}
+
+.box1 {
+    width: 550px;
+    min-height: 800px;
+    background-color: rgb(235, 237, 238);
+}
+
+img {
+    margin: 70px 70px;
+    border-radius: 50%;
+    border: 10px solid rgb(235, 237, 238);
 }
