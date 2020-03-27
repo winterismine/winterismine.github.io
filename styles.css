@@ -42,7 +42,28 @@ body {
 }
 
 img {
-    margin: 70px 70px;
+    margin: 70px 22%;
     border-radius: 50%;
     border: 10px solid rgb(235, 237, 238);
+}
+
+.box1 {
+    height: 205px;
+    width: 460px;
+    background-color: rgb(203, 210, 220);
+    border: 2px solid black;
+    margin: 40px 8%;
+}
+
+.box1 h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Roboto;
+    letter-spacing: 5px;
+}
+
+.box1 p {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Roboto;
 }
